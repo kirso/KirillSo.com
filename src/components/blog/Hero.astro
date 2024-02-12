@@ -20,18 +20,23 @@ const dateTimeOptions: Intl.DateTimeFormatOptions = {
 
 {
 	data.coverImage && (
-		<div class="aspect-h-9 aspect-w-16 mb-6">
-			<Image
-				src={data.coverImage.src}
-				alt={data.coverImage.alt}
-				class="object-cover"
-				loading="eager"
-				fetchpriority="high"
-			/>
-		</div>
+		<>
+			<div class="aspect-h-9 aspect-w-16 mb-1">
+				<Image
+					src={data.coverImage.src}
+					alt={data.coverImage.alt}
+					class="object-cover"
+					loading="eager"
+					fetchpriority="high"
+				/>
+			</div>
+			<figcaption class="mb-5 text-base font-light">
+				Photo credit: <span class="font-light">{data.coverImage.credit}</span>
+			</figcaption>
+		</>
 	)
 }
-{data.draft ? <span class="text-base text-red-500">(Draft)</span> : null}
+{data.draft ? <span class="text-lg text-red-500">(Draft)</span> : null}
 <h1 class="title mb-3 sm:mb-1">
 	{data.title}
 </h1>
@@ -76,7 +81,10 @@ const dateTimeOptions: Intl.DateTimeFormatOptions = {
 						aria-label={`View more blogs with the tag ${tag}`}
 						href={`/tags/${tag}/`}
 						data-pagefind-filter="tag"
-					>{tag}</a>{i < data.tags.length - 1 && ", "}
+					>
+						{tag}
+					</a>
+					{i < data.tags.length - 1 && ", "}
 				</>
 			))}
 		</div>
