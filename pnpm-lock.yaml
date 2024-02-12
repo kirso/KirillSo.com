@@ -23,6 +23,9 @@ dependencies:
   astro-expressive-code:
     specifier: ^0.31.0
     version: 0.31.0(astro@4.2.1)
+  astro-google-analytics:
+    specifier: ^1.0.3
+    version: 1.0.3
   astro-icon:
     specifier: ^1.0.2
     version: 1.0.2
@@ -2102,6 +2105,10 @@ packages:
     dependencies:
       astro: 4.2.1(typescript@5.3.3)
       remark-expressive-code: 0.31.0
+    dev: false
+
+  /astro-google-analytics@1.0.3:
+    resolution: {integrity: sha512-5bD7jA15yxVaUFVVEFG6KKMphYJ4AKP4+HSqCVBpTBnqh8LL0giTdAHpG9KJs3JaFbGQUTWP5Pqt8+twz7f55Q==}
     dev: false
 
   /astro-icon@1.0.2:
