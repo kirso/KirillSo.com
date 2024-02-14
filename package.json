@@ -18,7 +18,7 @@
 		"@astrojs/tailwind": "5.1.0",
 		"@astrojs/ts-plugin": "^1.5.2",
 		"astro": "4.2.1",
-		"astro-expressive-code": "^0.31.0",
+		"astro-expressive-code": "^0.32.4",
 		"astro-google-analytics": "^1.0.3",
 		"astro-icon": "^1.1.0",
 		"posthog-js": "^1.105.8",
