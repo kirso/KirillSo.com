@@ -10,6 +10,8 @@ coverImage:
   credit: "Alberto Triano"
 ---
 
+This year I've decided to write a review on my birthday. 
+
 I took an inspiration from Pham Tanh this year and decided to write a review on my birthday, since that seems like a real cutoff. Another year flew by and I started receiving annual life updates from random people I follow. The best part is, it's really fun to read! If you wonder what these are, [Ximena Vengoechea](https://www.ximenavengoechea.com/) wrote a great article on life audits where she defines it as:
 
 > An exercise in self-reflection that helps you clear the cobwebs of noisy, external goals and current distractions, and revisit or uncover the real themes & core values that drive & inspire you. **Also known as spring cleaning for the soul.**
