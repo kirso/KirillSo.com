@@ -33,7 +33,7 @@ const dateTimeOptions: Intl.DateTimeFormatOptions = {
 		</div>
 	)
 }
-{data.draft ? <span class="text-base text-red-500">(Draft)</span> : null}
+{data.draft ? <span class="text-lg text-red-500">(Draft)</span> : null}
 <h1 class="title mb-3 sm:mb-1">
 	{data.title}
 </h1>
@@ -78,7 +78,10 @@ const dateTimeOptions: Intl.DateTimeFormatOptions = {
 						class="cactus-link inline-block before:content-['#']"
 						data-pagefind-filter="tag"
 						href={`/tags/${tag}/`}
-					>{tag}</a>{i < data.tags.length - 1 && ", "}
+					>
+						{tag}
+					</a>
+					{i < data.tags.length - 1 && ", "}
 				</>
 			))}
 		</div>
