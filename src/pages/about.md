@@ -55,7 +55,10 @@ Private:
 
 Public:
 
-- [VWRA](https://www.vanguardmexico.com/en/products/financial-products/equity-etf/VWRA)
+- [$VWRA](https://www.vanguardmexico.com/en/products/financial-products/equity-etf/VWRA)
+- [$COIN](https://www.google.com/finance/quote/COIN:NASDAQ?sa=X&ved=2ahUKEwjTjYvU4K6EAxWjcGwGHf3RD68Q3ecFegQIRxAf&window=MAX)
+- [$U](https://www.google.com/finance/quote/U:NYSE?window=MAX)
+- [$SE](https://www.google.com/finance/quote/SE:NYSE?window=MAX)
 
 ### Interests
 

@@ -1,6 +1,6 @@
 ---
 title: "Surviving zombie apocalypse"
-description: "A short essay about feelings, presence, cordyceps and escaping the epicenter of attention epidemic."
+description: "A short essay about feelings, presence, cordyceps and escaping the epicenter of attention epidemic that is causing the world to be blurred."
 publishDate: "2024-02-11"
 tags: ["meta", "life", "essay"]
 draft: false
