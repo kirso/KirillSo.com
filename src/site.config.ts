@@ -8,7 +8,7 @@ export const siteConfig: SiteConfig = {
 	title: "Kirill's Personal Website & Blog",
 	// Meta property used as the default description meta property
 	description:
-		"Kirill So is a growth product manager, occasional writer and part-time indie maker. This website is used as exploration of ideas, tiny projects and learning new things via experiments. Occasionally, I send out a newsletter about making sense of the world.",
+		"A product manager, occasional writer and part-time indie maker based in Singapore. This website is used as exploration of ideas, tiny projects and learning new things via experiments.",
 	// HTML lang property, found in src/layouts/Base.astro L:18
 	lang: "en-GB",
 	// Meta property, found in src/components/BaseHead.astro L:42
