@@ -1,27 +1,25 @@
-<div align="center">
-  <img alt="Astro Cactus logo" src="https://github.com/chrismwilliams/astro-theme-cactus/assets/12715988/85aa0d3c-ef6a-44e2-954d-ef035b4f4315" width="70" />
-</div>
-<h1 align="center">
-  Astro Cactus
-</h1>
+# Personal website & blog
 
-Astro Cactus is a simple opinionated starter built with the Astro framework. Use it to create an easy-to-use blog or website.
+This Astro based app is based on Astro Cactus template
 
 ## Table Of Contents
 
-1. [Key Features](#key-features)
-2. [Demo](#demo-💻)
-3. [Quick start](#quick-start)
-4. [Preview](#preview)
-5. [Commands](#commands)
-6. [Configure](#configure)
-7. [Adding Posts](#adding-posts)
-   - [Frontmatter](#frontmatter)
-   - [Frontmatter Snippet](#frontmatter-snippet)
-8. [Pagefind search](#pagefind-search)
-9. [Analytics](#analytics)
-10. [Deploy](#deploy)
-11. [Acknowledgment](#acknowledgment)
+- [Personal website \& blog](#personal-website--blog)
+  - [Table Of Contents](#table-of-contents)
+  - [Key Features](#key-features)
+  - [Demo 💻](#demo-)
+  - [Quick start](#quick-start)
+  - [Preview](#preview)
+  - [Commands](#commands)
+  - [Configure](#configure)
+  - [Adding posts](#adding-posts)
+    - [Frontmatter](#frontmatter)
+    - [Frontmatter snippet](#frontmatter-snippet)
+  - [Pagefind search](#pagefind-search)
+  - [Analytics](#analytics)
+  - [Deploy](#deploy)
+  - [Acknowledgment](#acknowledgment)
+  - [License](#license)
 
 ## Key Features
 
@@ -60,10 +58,6 @@ pnpm dlx create-astro --template chrismwilliams/astro-theme-cactus
 [![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/chrismwilliams/astro-theme-cactus) [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fchrismwilliams%2Fastro-theme-cactus&project-name=astro-theme-cactus)
 
 ## Preview
-
-![Astro Theme Cactus in a light theme mode](https://github.com/chrismwilliams/astro-theme-cactus/assets/12715988/84c89d42-4525-4674-b10c-6d6ebdc06382)
-
-![Astro Theme Cactus in a dark theme mode](https://github.com/chrismwilliams/astro-theme-cactus/assets/12715988/e0e575e2-445f-4c2d-a812-b5b53d2d9031)
 
 ## Commands
 
@@ -149,7 +143,7 @@ By default the site will be built (see [Commands](#commands) section above) to a
 
 ## Acknowledgment
 
-This theme was inspired by [Hexo Theme Cactus](https://github.com/probberechts/hexo-theme-cactus)
+This astro site is based on template [Hexo Theme Cactus](https://github.com/probberechts/hexo-theme-cactus)
 
 ## License
 
