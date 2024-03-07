@@ -1,13 +1,13 @@
 ---
-title: "How to personally develop"
-description: "An aggregation of all advice on personal development in 1000 words."
-publishDate: "2024-02-11"
-tags: ["meta", "life", "essay"]
+title: Development
+description: An aggregation of all advice on personal development in 1000 words.
+publishDate: 2024-02-11
+tags: [meta, life, essay]
 draft: true
 coverImage:
-  src: "./smartphone-zombies.png"
-  alt: "Zombie-like people holding smartphones"
-  credit: "Steve Cutts"
+  src: ./smartphone-zombies.png
+  alt: Zombie-like people holding smartphones
+  credit: Steve Cutts
 ---
 
 The reason we
