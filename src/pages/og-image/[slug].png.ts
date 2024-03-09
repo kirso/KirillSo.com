@@ -37,8 +37,8 @@ const markup = (title: string, pubDate: string) =>
 		<div tw="flex items-center justify-between w-full p-10 border-t border-[#2bbc89] text-xl">
 			<div tw="flex items-center">
 				<svg
-					width="60"
-					height="60"
+					width="50"
+					height="50"
 					viewBox="0 0 272 480"
 					fill="none"
 					xmlns="http://www.w3.org/2000/svg"
