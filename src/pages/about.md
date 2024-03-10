@@ -101,6 +101,16 @@ This has been a major downer given that I spent so much time on it. I see people
 
 I still use [Logseq](https://logseq.com/) for my daily journals, todos, studying, and reflections, and [Obsidian](https://obsidian.md/) for writing and editing. However, I killed the highlighting and producing notes.
 
+## Other
+
+### Donations
+
+Some charity projects I support with volunteering and donations:
+
+- [FreeCodeCamp](https://www.freecodecamp.org/donate)
+- [Logseq](https://opencollective.com/logseq)
+- [Charity:water](https://www.charitywater.org/kirillsofronov) -
+
 ## Principles
 
 - Living an examined and calm life
