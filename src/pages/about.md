@@ -103,13 +103,11 @@ I still use [Logseq](https://logseq.com/) for my daily journals, todos, studying
 
 ## Other
 
-### Donations
-
-Some charity projects I support with volunteering and donations:
+Some projects I support with volunteering and donations:
 
 - [FreeCodeCamp](https://www.freecodecamp.org/donate)
 - [Logseq](https://opencollective.com/logseq)
-- [Charity:water](https://www.charitywater.org/kirillsofronov) -
+- [Charity:water](https://www.charitywater.org/kirso)
 
 ## Principles
 
