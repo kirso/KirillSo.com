@@ -14,7 +14,7 @@ coverImage:
 
 This web app is a clone of Google search engine built with Next.js, TailwindCSS, Google Search API, Hero Icons and hosted on Vercel.
 
-[Github repo link](https://github.com/kirso/google)
+[Github repo link](https://github.com/kirso/nextjs-google)
 
 [Project link](https://google-nextjs-kirill.vercel.app/)
 
