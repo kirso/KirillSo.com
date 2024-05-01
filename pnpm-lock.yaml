@@ -98,8 +98,8 @@ devDependencies:
     specifier: ^2.5.0
     version: 2.5.0(astro-eslint-parser@0.16.3)(eslint@8.56.0)(typescript@5.3.3)
   eslint-plugin-regexp:
-    specifier: ^2.2.0
-    version: 2.2.0(eslint@8.56.0)
+    specifier: ^2.5.0
+    version: 2.5.0(eslint@8.56.0)
   eslint-plugin-typescript-sort-keys:
     specifier: ^3.1.0
     version: 3.1.0(@typescript-eslint/parser@6.21.0)(eslint@8.56.0)(typescript@5.3.3)
@@ -3408,8 +3408,8 @@ packages:
       - typescript
     dev: true
 
-  /eslint-plugin-regexp@2.2.0(eslint@8.56.0):
-    resolution: {integrity: sha512-0kwpiWiLRVBkVr3oIRQLl196sXP/NF6DQFefv9jtR4ZOgQR+6WID2pIZ0I+wIt54qgBPwBB7Gm2a+ueh8/WsFQ==}
+  /eslint-plugin-regexp@2.5.0(eslint@8.56.0):
+    resolution: {integrity: sha512-I7vKcP0o75WS5SHiVNXN+Eshq49sbrweMQIuqSL3AId9AwDe9Dhbfug65vw64LxmOd4v+yf5l5Xt41y9puiq0g==}
     engines: {node: ^18 || >=20}
     peerDependencies:
       eslint: '>=8.44.0'
