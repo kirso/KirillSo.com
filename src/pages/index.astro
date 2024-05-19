@@ -56,28 +56,30 @@ const cactusTech: Array<{ title: string; desc: string; href: string }> = [
 <PageLayout meta={{ title: "Home" }}>
 	<!-- description for meta is handled via site.config.ts -->
 	<section>
-		<h1 class="title mb-4 text-xl">Hey, I'm Kirill So 👋🏻</h1>
-		<p class="mb-4">
+		<h1 class='title mb-4 text-xl'>Hey, I'm Kirill So 👋🏻</h1>
+		<p class='mb-4'>
 			I’m a principal product manager based in Singapore. Previously, I co-founded a startup and ran
-			a profitable agency. During nights & weekends I like to tinker with code, design, write essays
-			about making sense of the world and review digital products.
+			a profitable agency. During nights & weekends I sometimes tinker with code, design, mentor and
+			write essays. <a href='https://twitter.com/kirso_'>DMs</a> are always open, so as <a
+				href='https://cal.com/kirso'>coffee chats</a
+			>.
 		</p>
 		<SocialList />
 	</section>
-	<section aria-label="Blog post list" class="mt-10">
-		<h2 class="title mb-4 text-xl">Posts</h2>
-		<ul class="space-y-4">
+	<section aria-label='Blog post list' class='mt-10'>
+		<h2 class='title mb-4 text-xl'>Posts</h2>
+		<ul class='space-y-4'>
 			{
 				allPostsByDate.map((p) => (
-					<li class="flex flex-col gap-x-2 sm:flex-row">
+					<li class='flex flex-col gap-x-2 sm:flex-row'>
 						<PostPreview post={p} />
 					</li>
 				))
 			}
 		</ul>
 	</section>
-	<section class="mt-10">
-		<h2 class="title mb-4 text-xl">Projects</h2>
+	<section class='mt-10'>
+		<h2 class='title mb-4 text-xl'>Projects</h2>
 		<Cards
 			cards={[
 				{
@@ -118,15 +120,15 @@ const cactusTech: Array<{ title: string; desc: string; href: string }> = [
 			]}
 		/>
 	</section>
-	<section class="mt-10">
-		<h2 class="title mb-4 text-xl">Tech</h2>
-		<dl class="space-y-4">
+	<section class='mt-10'>
+		<h2 class='title mb-4 text-xl'>Tech</h2>
+		<dl class='space-y-4'>
 			{
 				cactusTech.map(({ href, title, desc }) => (
-					<div class="flex flex-col gap-2 md:flex-row">
+					<div class='flex flex-col gap-2 md:flex-row'>
 						<dt>
-							<span class="flex">
-								<a href={href} target="_blank" rel="noopener noreferrer" class="cactus-link">
+							<span class='flex'>
+								<a href={href} target='_blank' rel='noopener noreferrer' class='cactus-link'>
 									{title}
 								</a>
 								:

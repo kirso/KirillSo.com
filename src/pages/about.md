@@ -8,15 +8,15 @@ description: "An about page that outlines various life milestones. It also delve
 
 ![Kirill So networking with people at a conference](../assets/img/about/kirill-profile-picture.jpg)
 
-_Hey there 👋, thanks for checking a more extensive version of my humble brag page!_
+Hey there 👋, thanks for checking a more extensive version of my personality. This corner of the website is always work in progress.
 
 ## Who
 
 I am Kirill So, and beyond professional achievements I identify myself as a curious human being, a husband, a son, and a friend. Currently, I live in Singapore with my beautiful wife [Sarah](https://www.sarahkhanamajid.com/), and work in tech as a product manager.
 
-Beforehand I worked and lived in places like the Czech Republic, Germany, the UK, the US, and Australia and consider myself a citizen of the world (e.g. I lost my identity of where home is).
+Born in the USSR, I grew up in places like the Czech Republic, Germany, the UK, the US, and Australia and consider myself a citizen of the world (e.g. I lost my identity of where home is).
 
-In my free time, I like to tinker with technology, read, write, and occasionally mentor others when I can help.
+In my free time, I like to tinker with technology, read, write, and occasionally teach.
 
 ## Why
 
@@ -28,9 +28,7 @@ In my free time, I like to tinker with technology, read, write, and occasionally
 
 ## What
 
-_This is a short timeline of my professional experiences._
-
-### Milestones
+### Professional milestones
 
 **2010** - Landed my first job in a [private equity fund](https://www.enercap.com/) and helped raise **over $200m in debt financing** for renewable energy projects in CEE. These wind, solar, and biomass projects have been saving 130,000 tonnes of carbon p.a. powering 200,000 households.
 
@@ -55,9 +53,9 @@ _This is a short timeline of my professional experiences._
 
 **2022** - Recovered and balanced my life. I focused on cementing myself in the organization as an expert in my domain, as well as trying to level up skills such as experimentation, technical architecture, and stakeholder management. I learned a lot, especially how different it is working at a scale where every decision can result in millions of revenue (or losses).
 
-**2023** - If 2022 was about proving myself that I can do things, 2023 was about pushing my boundaries and learning things that I don’t know I don’t know. My identity has shifted and I started exploring what is it that I genuinely like to work on. Even 13 years after working on various things the answer is not completely clear but I see a tiny glimpse of direction.
+**2023** - My identity has shifted and I started exploring what is it that I genuinely like to work on. Even 13 years after working on various things the answer is not completely clear but I see a tiny glimpse of direction.
 
-**Now (March 2024)** - I am currently in the middle of a personal and professional transition. More to come!
+**Now (March 2024)** - I am currently in the middle of a personal and professional transition.
 
 ### Investments
 
@@ -77,7 +75,7 @@ Public:
 
 #### Code
 
-I am currently in the middle of studying part-time. A lot of my friends raised eyebrows and asked why would I do that in the era of ChatGPT and the possibility of hiring others. I plan to write an article on why I think learning is worth it. But TL;DR is that there is to cultivate a [builder's mindset](https://builders.genagorlin.com/p/the-builders-mindset-a-way-out-of) to generate things that AI won’t ever be able to do.
+A lot of my friends raised eyebrows and asked why would I do that in the era of ChatGPT and the possibility of hiring others. I plan to write an article on why I think learning is worth it. But TL;DR is that I am a proponent of [builder's mindset](https://builders.genagorlin.com/p/the-builders-mindset-a-way-out-of).
 
 #### Design
 
@@ -97,9 +95,55 @@ I am keeping an eye on the space of [early-stage software “value investing”]
 
 #### ~~Second brain~~
 
-This has been a major downer given that I spent so much time on it. I see people wasting time configuring PKM systems to produce a worthy writing output but fall short in actually producing (like me). Doing is worth 50x more than organizing. [The flaws of PKM systems are clear](https://sashachapin.substack.com/p/notes-against-note-taking-systems). However, I don’t think the problem is in the concept of the second brain or PKM, it’s the ecosystem that promotes procrastination over output. It doesn’t matter how many dots you have on the graph.
+This has been a major downer given that I spent so much time on it. I see people wasting time on configuration and storage instead of output and fall short in actually producing (like me). Doing is worth 50x more than organizing. [The flaws of PKM systems are clear](https://sashachapin.substack.com/p/notes-against-note-taking-systems). I am currently in the process of just simplifying things.
 
-I still use [Logseq](https://logseq.com/) for my daily journals, todos, studying, and reflections, and [Obsidian](https://obsidian.md/) for writing and editing. However, I killed the highlighting and producing notes.
+### Open questions
+
+Things I ponder about.
+
+#### Incentives
+
+- Why do we see a gap of quality when we try to maximize gains?
+- How can we collectively work together, despite the differences?
+
+#### Humans
+
+- With the ongoing technological progress, why does it feel that we are going backwards in terms of life satisfaction?
+- How can we cultivate better and more meaningful communities?
+
+### Influences
+
+World influences that shaped me into a person I am today
+
+#### Meaning
+
+- [Awakening from the meaning crisis](https://www.meaningcrisis.co/)
+
+#### Life
+
+- [This is water](/posts/this-is-water)
+- [The egg](https://www.youtube.com/watch?v=h6fcK_fRYaI)
+
+#### Creativity
+
+- [Everything is a remix](https://www.youtube.com/watch?v=X9RYuvPCQUA)
+
+#### People
+
+Humans who had a severe impact on my life which I extend my gratitude to as well as my admiration.
+
+- [Derek Sivers](www.siversderek.com)
+- [Charlie Munger](https://www.charlie-munger.com/)
+- [Bruce Lee](https://www.bruce-lee.com/)
+- [Edward Thorp](https://www.edwardothorp.com/about/)
+
+### Content
+
+#### Documentaries
+
+- [Searching for Sugarman](https://www.foxnews.com/entertainment/searching-for-sugarman)
+- [Jiro dreams of sushi](https://www.foxnews.com/entertainment/jiro-dreams-sushi)
+- [Dealt](https://www.foxnews.com/entertainment/dealt)
 
 ## Other
 
@@ -114,11 +158,11 @@ Some projects I support with volunteering and donations:
 - Living an examined and calm life
 - Exploration & experimentation
 - Seeking mastery & expertise
-- Beginner’s mind and art of starting from scratch
+- Beginner’s mind
 - Lifelong learning and forever student
 - Non-convention and non-conformity
 - Simplicity and minimalism
-- Virtue cultivation. Alternatively
+- Virtue cultivation
 - Individual journey and direction
 - Bits of hungriness and foolishness
 
