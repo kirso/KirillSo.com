@@ -58,7 +58,7 @@ Overall it has been a very good year, not without challenges but as usual I lear
 
 ### Getting married
 
-They say who you marry will pretty much dictate the quality of your life…
+They say who you marry will pretty much dictate the quality of your life.
 
 Well last year in May, [Sarah](www.sarahkhanamajid.com) and I, decided to make it official and signed papers at a local ROM (registry of marriage) in Singapore. We didn’t have a proper ceremony yet, which is planned for this year and will only appear as life event in the next review.
 ![registry of marriage in Singapore](ROM.jpg)
