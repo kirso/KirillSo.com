@@ -5,10 +5,11 @@ publishDate: "2023-01-31"
 tags: ["meta", "life", "review"]
 draft: true
 coverImage:
-  src: "./attachments/Matryosh.jpg"
+  src: "./Matryosh.jpg"
   alt: "A wall with standing matryoshka dolls"
   credit: "Alberto Triano"
 ---
+
 ## Prologue
 
 Contrary to most of the world, I am writing my annual review on my birthday (thanks to [Phan Tanh](https://www.tampham.co/) for inspiration).
@@ -84,17 +85,18 @@ When the review time came, it was really hard for me to recall all the major thi
 
 ### Growth
 
-
-
 ###
 
 ## Learnings
+
 ### General
-- I learned a lot about how networks and the internet work at a low level in my time at GreyNoise. 
-- I learned that I can survive a big professional failure, and that as long as I live by my values and treat people with respect that will ultimately be more important to the people around me than the failure was. 
-- I learned that not only CAN I walk across a country, I LOVE the simplicity and the community and the challenge that come with a big through hike. 
+
+- I learned a lot about how networks and the internet work at a low level in my time at GreyNoise.
+- I learned that I can survive a big professional failure, and that as long as I live by my values and treat people with respect that will ultimately be more important to the people around me than the failure was.
+- I learned that not only CAN I walk across a country, I LOVE the simplicity and the community and the challenge that come with a big through hike.
 - I learned that I shouldn’t be afraid of crowds on big through hikes, because the people are the best part. Walking the Appalachian Trail is my newest big audacious goal (although not for this year).
 - I learned that, at least for now, I want to be a founder and not an employee.
+
 ### What I changed my mind
 
 Throughout the year
@@ -104,6 +106,7 @@ Throughout the year
 <https://www.shaanpuri.com/parents>
 
 ## Core memories
+
 - All the Bali trips
 - Restarted my journey to become technical and being able to code with Lau
 - Trip to Bangkok to see Arctic Monkeys
@@ -123,13 +126,17 @@ Throughout the year
 ## Systems (for 2024)
 
 ### 2023 Goals
+
 #### Theme:
 
 I did pretty well with my 2023 goals. Hiking the Camino, surprising Maddy, and sticking to Spanish lessons for most of the year were big achievements. I didn’t climb as much as I had intended, but I did pick up weightlifting for a bit and really enjoyed that again. And I don’t think I built emotional resilience, or at least not at the level I would like to have gotten to. But I did weather some big life changes and challenges, so that is really the only way to practice.
 
 ### 2024 Goals
+
 #### Theme: Take a break
+
 - X
+
 ## Resources
 
 - Life audit by Ximena
