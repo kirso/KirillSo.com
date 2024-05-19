@@ -10,6 +10,8 @@ import icon from "astro-icon";
 import expressiveCode from "astro-expressive-code";
 import { expressiveCodeOptions } from "./src/site.config";
 
+import svelte from "@astrojs/svelte";
+
 // https://astro.build/config
 export default defineConfig({
 	site: "https://www.kirillso.com/",
@@ -38,6 +40,7 @@ export default defineConfig({
 		}),
 		sitemap(),
 		mdx(),
+		svelte(),
 	],
 	image: {
 		domains: ["webmention.io"],
@@ -45,13 +48,17 @@ export default defineConfig({
 	// https://docs.astro.build/en/guides/prefetch/
 	prefetch: true,
 	vite: {
+		define: {
+			"process.env.SUPABASE_URL": JSON.stringify(process.env.SUPABASE_URL),
+			"process.env.SUPABASE_KEY": JSON.stringify(process.env.SUPABASE_KEY),
+			"process.env.OPENAI_API_KEY": JSON.stringify(process.env.OPENAI_API_KEY),
+		},
 		plugins: [rawFonts([".ttf", ".woff"])],
 		optimizeDeps: {
 			exclude: ["@resvg/resvg-js"],
 		},
 	},
 });
-
 function rawFonts(ext: Array<string>) {
 	return {
 		name: "vite-plugin-raw-fonts",
