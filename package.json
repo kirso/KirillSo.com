@@ -18,7 +18,7 @@
 		"@astrojs/svelte": "^5.4.0",
 		"@astrojs/tailwind": "5.1.0",
 		"@supabase/supabase-js": "^2.43.2",
-		"astro": "4.3.7",
+		"astro": "4.8.6",
 		"astro-expressive-code": "^0.32.4",
 		"astro-icon": "^1.1.0",
 		"cssesc": "^3.0.0",
