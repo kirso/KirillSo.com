@@ -121,7 +121,7 @@ World influences that shaped me into a person I am today
 
 #### Life
 
-- [This is water](/posts/this-is-water)
+- [This is water](https://www.youtube.com/watch?v=OsAd4HGJS4o)
 - [The egg](https://www.youtube.com/watch?v=h6fcK_fRYaI)
 
 #### Creativity
@@ -132,7 +132,7 @@ World influences that shaped me into a person I am today
 
 Humans who had a severe impact on my life which I extend my gratitude to as well as my admiration.
 
-- [Derek Sivers](www.siversderek.com)
+- [Derek Sivers](https://sive.rs/)
 - [Charlie Munger](https://www.charlie-munger.com/)
 - [Bruce Lee](https://www.bruce-lee.com/)
 - [Edward Thorp](https://www.edwardothorp.com/about/)
@@ -141,9 +141,9 @@ Humans who had a severe impact on my life which I extend my gratitude to as well
 
 #### Documentaries
 
-- [Searching for Sugarman](https://www.foxnews.com/entertainment/searching-for-sugarman)
-- [Jiro dreams of sushi](https://www.foxnews.com/entertainment/jiro-dreams-sushi)
-- [Dealt](https://www.foxnews.com/entertainment/dealt)
+- [Searching for Sugarman](https://www.youtube.com/watch?v=KKXewWDh1og)
+- [Jiro dreams of sushi](https://www.youtube.com/watch?v=0VB_DrsHDQ0)
+- [Dealt](https://www.youtube.com/watch?v=F__DQ1ruYck)
 
 ## Other
 
