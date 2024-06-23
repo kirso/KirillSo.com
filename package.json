@@ -5,12 +5,15 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro build",
+    "build": "node --version && astro build",
     "postbuild": "pagefind --site dist",
     "preview": "astro preview",
     "format": "prettier -w --cache . && prettier -w --cache **/*.astro",
     "check": "astro check",
     "generate-embeddings": "node src/lib/generateEmbeddings.mjs"
+  },
+  "engines": {
+    "node": "18.x"
   },
   "dependencies": {
     "@astrojs/mdx": "2.1.1",
