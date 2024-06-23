@@ -3,5 +3,11 @@
   "devCommand": "astro dev",
   "installCommand": "npm install",
   "framework": "astro",
-  "outputDirectory": "dist"
+  "outputDirectory": "dist",
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/node@18"
+    }
+  ]
 }
