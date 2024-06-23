@@ -18,7 +18,7 @@ It kind of make sense… the years you spend on this earth really start when you
 
 ### The art of reflection, and dread
 
-In 2022, [I attempted](/annual-review-2021) to summarize my year. It was a fairly enjoyable process, but the output seemed like having more relevance to me.
+In 2022, [I attempted](/posts/annual-review-2021) to summarize my year. It was a fairly enjoyable process, but the output seemed like having more relevance to me.
 
 In 2023, despite having good intentions I made a mistake and went too deep. The goal changed from summarizing my learnings and reflect to → “I just want to be done with it”. And such philosophy, my dear friends, is very dangerous. We tend to get into that mode when we are not really connected to what we are doing.
 
@@ -34,7 +34,7 @@ If you wonder why to even spend time doing something like this, [Ximena Vengoech
 
 > An exercise in self-reflection that helps you clear the cobwebs of noisy, external goals and current distractions, and revisit or uncover the real themes & core values that drive & inspire you. **Also known as spring-cleaning for the soul.**
 
-I find this exercise helpful, because the [“zombie-mode”](/posts/avoiding-zombie-apocalypse/) switches on at some point and its very hard to notice “when” that happens. A good indication.
+I find this exercise helpful, because the [“zombie-mode”](/posts/avoiding-zombie-apocalypse/) switches on at some point, and it's very hard to notice “when” that happens. A good indication.
 
 ### The structure
 
@@ -60,10 +60,10 @@ Overall it has been a very good year, not without challenges but as usual I lear
 
 They say who you marry will pretty much dictate the quality of your life.
 
-Well last year in May, [Sarah](www.sarahkhanamajid.com) and I, decided to make it official and signed papers at a local ROM (registry of marriage) in Singapore. We didn’t have a proper ceremony yet, which is planned for this year and will only appear as life event in the next review.
+Well last year in May, [Sarah](www.sarahkhanamajid.com) and I, decided to make it official and signed papers at a local ROM (registry of marriage) in Singapore. We didn’t have a proper ceremony yet, which is planned for this year and will only appear as a life event in the next review.
 ![registry of marriage in Singapore](ROM.jpg)
 
-Our relationship has been defined first by randomness that turned into fast-track bootcamp in 2020 where we moved in together in the middle of the pandemic. We were isolated from the outside world for at least a year in a small studio apartment in the east of Singapore. Despite that fact and being very early in, we managed to make it work, in fact it was really fun.
+Our relationship has been defined first by randomness that turned into fast-track boot camp in 2020 where we moved in together in the middle of the pandemic. We were isolated from the outside world for at least a year in a small studio apartment in the east of Singapore. Despite that fact and being very early in, we managed to make it work, in fact it was really fun.
 
 When the borders opened, we started to finally enjoy what other couples usually start with. Dates, travels, restaurants, and hangouts with friends.
 
@@ -92,7 +92,7 @@ When the review time came, it was really hard for me to recall all the major thi
 ### General
 
 - I learned a lot about how networks and the internet work at a low level in my time at GreyNoise.
-- I learned that I can survive a big professional failure, and that as long as I live by my values and treat people with respect that will ultimately be more important to the people around me than the failure was.
+- I learned that I can survive a big professional failure, and that as long as I live by my values and treat people with respect that will ultimately be more important to the surrounding people than the failure was.
 - I learned that not only CAN I walk across a country, I LOVE the simplicity and the community and the challenge that come with a big through hike.
 - I learned that I shouldn’t be afraid of crowds on big through hikes, because the people are the best part. Walking the Appalachian Trail is my newest big audacious goal (although not for this year).
 - I learned that, at least for now, I want to be a founder and not an employee.
@@ -129,13 +129,14 @@ Throughout the year
 
 #### Theme:
 
-I did pretty well with my 2023 goals. Hiking the Camino, surprising Maddy, and sticking to Spanish lessons for most of the year were big achievements. I didn’t climb as much as I had intended, but I did pick up weightlifting for a bit and really enjoyed that again. And I don’t think I built emotional resilience, or at least not at the level I would like to have gotten to. But I did weather some big life changes and challenges, so that is really the only way to practice.
+I did pretty well with my 2023 goals. Hiking the Camino, surprising Maddy, and sticking to Spanish lessons for most of the year were big achievements. I didn’t climb as much as I had intended, but I did pick up weightlifting for a bit and really enjoyed that again. And I don’t think I built emotional resilience, or at least not at the level I would like to have gotten to. But I did weather some big life changes and challenges, so that is really the only way to practice. Hell
 
 ### 2024 Goals
 
 #### Theme: Take a break
 
-- X
+- Xasdfa as
+-
 
 ## Resources
 

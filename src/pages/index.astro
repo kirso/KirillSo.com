@@ -4,6 +4,7 @@ import PostPreview from "../components/blog/PostPreview.astro";
 import SocialList from "../components/SocialList.astro";
 import { getAllPosts, sortMDByDate } from "@/utils";
 import Cards from "../components/Cards.astro";
+import ChatPopup from "@/components/ChatPopup.svelte";
 
 const MAX_POSTS = 10;
 const allPosts = await getAllPosts();
@@ -139,5 +140,8 @@ const cactusTech: Array<{ title: string; desc: string; href: string }> = [
 				))
 			}
 		</dl>
+	</section>
+	<section>
+		<ChatPopup client:load />
 	</section>
 </PageLayout>

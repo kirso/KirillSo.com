@@ -9,12 +9,14 @@ import { remarkReadingTime } from "./src/utils/remark-reading-time";
 import icon from "astro-icon";
 import expressiveCode from "astro-expressive-code";
 import { expressiveCodeOptions } from "./src/site.config";
-
 import svelte from "@astrojs/svelte";
+
+import vercel from "@astrojs/vercel/serverless";
 
 // https://astro.build/config
 export default defineConfig({
 	site: "https://www.kirillso.com/",
+	output: "hybrid",
 	markdown: {
 		remarkPlugins: [remarkUnwrapImages, remarkReadingTime],
 		rehypePlugins: [
@@ -58,6 +60,7 @@ export default defineConfig({
 			exclude: ["@resvg/resvg-js"],
 		},
 	},
+	adapter: vercel(),
 });
 function rawFonts(ext: Array<string>) {
 	return {
