@@ -27,6 +27,10 @@ export const POST: APIRoute = async ({ request }) => {
 		const { input } = parsedBody;
 		console.log("Input:", input);
 
+		console.log("Initializing Supabase client");
+		console.log("Supabase URL:", process.env.SUPABASE_URL);
+		console.log("Supabase Key (first 5 chars):", process.env.SUPABASE_KEY?.substring(0, 5));
+
 		console.log("Querying Supabase");
 		const { data: embeddingData, error: supabaseError } = await supabase
 			.from("embeddings")
@@ -38,6 +42,9 @@ export const POST: APIRoute = async ({ request }) => {
 		}
 
 		console.log("Embedding data retrieved, count:", embeddingData?.length);
+
+		console.log("Initializing OpenAI client");
+		console.log("OpenAI API Key (first 5 chars):", process.env.OPENAI_API_KEY?.substring(0, 5));
 
 		console.log("Creating OpenAI embedding");
 		const embeddingResponse = await openai.embeddings.create({
