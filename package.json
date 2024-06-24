@@ -6,11 +6,14 @@
     "dev": "astro dev",
     "start": "astro dev",
     "build": "node --version && astro build",
-    "postbuild": "pagefind --site dist",
+    "postbuild": "pagefind --site dist --bundle-dir pagefind",
     "preview": "astro preview",
     "format": "prettier -w --cache . && prettier -w --cache **/*.astro",
     "check": "astro check",
     "generate-embeddings": "node src/lib/generateEmbeddings.mjs"
+  },
+  "engines": {
+    "node": "20.13.1"
   },
   "dependencies": {
     "@astrojs/mdx": "2.1.1",
