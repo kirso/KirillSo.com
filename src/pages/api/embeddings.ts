@@ -17,6 +17,7 @@ const openai = new OpenAI({ apiKey: openaiApiKey });
 export const POST: APIRoute = async ({ request }) => {
 	console.log("Function invoked");
 	try {
+		console.log("Parsing request body");
 		const rawBody = await request.text();
 		console.log("Raw body:", rawBody);
 
@@ -26,7 +27,7 @@ export const POST: APIRoute = async ({ request }) => {
 		const { input } = parsedBody;
 		console.log("Input:", input);
 
-		// Supabase query for embeddings
+		console.log("Querying Supabase");
 		const { data: embeddingData, error: supabaseError } = await supabase
 			.from("embeddings")
 			.select("embedding, text");
@@ -36,9 +37,9 @@ export const POST: APIRoute = async ({ request }) => {
 			throw new Error(`Supabase error: ${supabaseError.message}`);
 		}
 
-		console.log("Embedding data retrieved");
+		console.log("Embedding data retrieved, count:", embeddingData?.length);
 
-		// OpenAI embedding creation
+		console.log("Creating OpenAI embedding");
 		const embeddingResponse = await openai.embeddings.create({
 			input: input,
 			model: "text-embedding-ada-002",
@@ -51,6 +52,7 @@ export const POST: APIRoute = async ({ request }) => {
 			throw new Error("Failed to generate user embedding");
 		}
 
+		console.log("Finding best match");
 		let bestMatch = null;
 		let highestSimilarity = -1;
 
@@ -64,6 +66,7 @@ export const POST: APIRoute = async ({ request }) => {
 
 		console.log("Best match found:", bestMatch ? bestMatch.substring(0, 100) + "..." : "No match");
 
+		console.log("Creating OpenAI chat completion");
 		const completionResponse = await openai.chat.completions.create({
 			model: "gpt-3.5-turbo",
 			messages: [
@@ -95,6 +98,8 @@ export const POST: APIRoute = async ({ request }) => {
 		} else if (typeof error === "string") {
 			errorMessage = error;
 		}
+
+		console.error("Error details:", errorMessage, errorDetails);
 
 		return new Response(JSON.stringify({ error: errorMessage, details: errorDetails }), {
 			status: 500,
