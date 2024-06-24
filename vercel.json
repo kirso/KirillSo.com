@@ -7,7 +7,7 @@
   "builds": [
     {
       "src": "package.json",
-      "use": "@vercel/node@18"
+      "use": "@vercel/node@20"
     }
   ]
 }
