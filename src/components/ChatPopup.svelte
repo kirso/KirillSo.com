@@ -1,10 +1,12 @@
 <script>
 	import { onMount } from "svelte";
+	import { fade } from "svelte/transition";
 
 	let isOpen = false;
 	let input = "";
 	let messages = [];
-	let isStreaming = false;
+	let isLoading = false;
+	let currentStreamedMessage = "";
 
 	onMount(() => {
 		messages = [{ user: "bot", text: "Hello! How can I assist you?", isQuestion: false }];
@@ -18,7 +20,7 @@
 
 		messages = [...messages, { user: "user", text: trimmedInput, isQuestion: true }];
 		input = "";
-		isStreaming = true;
+		isLoading = true;
 
 		try {
 			const response = await fetch("/api/embeddings", {
@@ -31,15 +33,19 @@
 			});
 
 			if (!response.ok) {
-				if (response.status === 429) {
-					throw new Error(
-						"You have reached the limit of 5 questions in 5 minutes. Please wait before asking more questions.",
-					);
-				}
 				throw new Error(`HTTP error! status: ${response.status}`);
 			}
 
 			const data = await response.json();
+
+			// Simulate streaming effect
+			currentStreamedMessage = "";
+			const words = data.answer.split(" ");
+			for (let word of words) {
+				currentStreamedMessage += word + " ";
+				await new Promise((resolve) => setTimeout(resolve, 50)); // Adjust timing as needed
+			}
+
 			messages = [...messages, { user: "bot", text: data.answer, isQuestion: false }];
 		} catch (error) {
 			console.error("Failed to send message:", error);
@@ -52,7 +58,8 @@
 				},
 			];
 		} finally {
-			isStreaming = false;
+			isLoading = false;
+			currentStreamedMessage = "";
 		}
 	}
 </script>
@@ -68,6 +75,7 @@
 	{#if isOpen}
 		<div
 			class="absolute bottom-16 right-0 w-80 max-h-96 bg-bgColor border border-textColor rounded-lg overflow-hidden flex flex-col shadow-lg"
+			transition:fade
 		>
 			<div class="flex-grow overflow-y-auto p-4 space-y-2">
 				{#each messages as msg}
@@ -75,10 +83,31 @@
 						class="max-w-[80%] p-2 rounded-lg {msg.isQuestion
 							? 'ml-auto text-accent'
 							: 'mr-auto bg-gray-100 dark:bg-gray-800 text-textColor'}"
+						transition:fade
 					>
 						{msg.text}
 					</div>
 				{/each}
+				{#if isLoading}
+					<div class="flex items-center space-x-2">
+						<div class="w-2 h-2 bg-accent rounded-full animate-bounce"></div>
+						<div
+							class="w-2 h-2 bg-accent rounded-full animate-bounce"
+							style="animation-delay: 0.2s"
+						></div>
+						<div
+							class="w-2 h-2 bg-accent rounded-full animate-bounce"
+							style="animation-delay: 0.4s"
+						></div>
+					</div>
+				{/if}
+				{#if currentStreamedMessage}
+					<div
+						class="max-w-[80%] p-2 rounded-lg mr-auto bg-gray-100 dark:bg-gray-800 text-textColor"
+					>
+						{currentStreamedMessage}
+					</div>
+				{/if}
 			</div>
 			<form on:submit={handleSendMessage} class="p-2 border-t border-textColor">
 				<input
@@ -90,11 +119,15 @@
 				<button
 					type="submit"
 					class="w-full bg-accent text-bgColor px-4 py-2 rounded-lg font-bold transition-opacity hover:opacity-80 disabled:opacity-50 disabled:cursor-not-allowed"
-					disabled={!input || isStreaming}
+					disabled={!input || isLoading}
 				>
-					{isStreaming ? "Sending..." : "Send"}
+					{isLoading ? "Sending..." : "Send"}
 				</button>
 			</form>
 		</div>
 	{/if}
 </div>
+
+<style>
+	/* Add any additional styles here */
+</style>
