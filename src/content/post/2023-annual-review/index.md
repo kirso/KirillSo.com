@@ -1,7 +1,7 @@
 ---
 title: "2023 Annual Review"
 description: "2023 annual review about things that went well, not so well, experiences and learnings throughout the year."
-publishDate: "2023-01-31"
+publishDate: "2023-12-29"
 tags: ["meta", "life", "review"]
 draft: true
 coverImage:
@@ -12,15 +12,9 @@ coverImage:
 
 ## Prologue
 
-Contrary to most of the world, I am writing my annual review on my birthday (thanks to [Phan Tanh](https://www.tampham.co/) for inspiration).
+In 2022, [I attempted](/posts/annual-review-2021) to summarize my year for the first time. I did ok and it was a pleasurable activity.
 
-It kind of make sense… the years you spend on this earth really start when you are born, not when the earth finishes its orbit around the sun.
-
-### The art of reflection, and dread
-
-In 2022, [I attempted](/posts/annual-review-2021) to summarize my year. It was a fairly enjoyable process, but the output seemed like having more relevance to me.
-
-In 2023, despite having good intentions I made a mistake and went too deep. The goal changed from summarizing my learnings and reflect to → “I just want to be done with it”. And such philosophy, my dear friends, is very dangerous. We tend to get into that mode when we are not really connected to what we are doing.
+In 2023, despite having good intentions I made a mistake and went too deep. The goal changed from summarizing my learnings and reflect to “I just want to be done with it”. And such philosophy, my dear friends, is very dangerous. We tend to get into that mode when we are not really connected to what we are doing. The result was so deep and probably uninteresting that it just didn’t make sense to publish.
 
 This year I didn’t learn the lesson. I used the same template and dreaded every moment but pushed through. With the same outcome of not being proud of what I’ve done despite sinking 10 hours into the process. I frankly hated it.
 
@@ -34,14 +28,11 @@ If you wonder why to even spend time doing something like this, [Ximena Vengoech
 
 > An exercise in self-reflection that helps you clear the cobwebs of noisy, external goals and current distractions, and revisit or uncover the real themes & core values that drive & inspire you. **Also known as spring-cleaning for the soul.**
 
-I find this exercise helpful, because the [“zombie-mode”](/posts/avoiding-zombie-apocalypse/) switches on at some point, and it's very hard to notice “when” that happens. A good indication.
-
 ### The structure
 
-## [TLDR](#tldr)
-
-- [What went well? (Highlights)](#what-went-well)
-- What didn’t go well? (Lowlights)
+- [TL;DR](#tldr)
+- [What went well? (Highlights)](#highlights)
+- [What didn’t go well? (Lowlights)](#lowlights)
 - What did I learn? (Lessons)
 - Core memories (Moments of awe)
 - Systems & values
@@ -54,7 +45,7 @@ I had major life events happen, including making the most important decision of 
 
 Overall it has been a very good year, not without challenges but as usual I learned a lot…
 
-## What went well
+## Highlights
 
 ### Getting married
 
@@ -63,7 +54,7 @@ They say who you marry will pretty much dictate the quality of your life.
 Well last year in May, [Sarah](www.sarahkhanamajid.com) and I, decided to make it official and signed papers at a local ROM (registry of marriage) in Singapore. We didn’t have a proper ceremony yet, which is planned for this year and will only appear as a life event in the next review.
 ![registry of marriage in Singapore](ROM.jpg)
 
-Our relationship has been defined first by randomness that turned into fast-track boot camp in 2020 where we moved in together in the middle of the pandemic. We were isolated from the outside world for at least a year in a small studio apartment in the east of Singapore. Despite that fact and being very early in, we managed to make it work, in fact it was really fun.
+Our relationship has been defined by randomness that turned into fast-track boot camp in 2020 where we moved in together in the middle of the pandemic. We were isolated from the outside world for at least a year in a small studio apartment in the east of Singapore. Despite that fact and being very early in, we managed to make it work, in fact it was really fun.
 
 When the borders opened, we started to finally enjoy what other couples usually start with. Dates, travels, restaurants, and hangouts with friends.
 
@@ -71,7 +62,7 @@ I am incredibly humbled and grateful that I have a person in my life who is kind
 
 ### Experiences and travel
 
-Last year was rich. Like super rich in things we did in our personal life
+Wow, this has been incredible. I’ve never travelled so much (outside of work) in one year although to similar destinations.
 
 ### Stability (with a caveat)
 
@@ -85,9 +76,16 @@ When the review time came, it was really hard for me to recall all the major thi
 
 ### Growth
 
-###
+A few personal
 
 ## Learnings
+
+- I might not be the great entrepreneur, but I love buildings products.
+- I am drained by bullshit work and politics (PowerPoint decks, synchronous meeting culture, admin) and anything that seems meaningless.
+- Simple & married life suits me. I feel responsible for another human being on a daily basis, which grounds me.
+- Being part of a small community of souls that resonate around niche topics (people who are on non-default paths, hackers building tiny products, local gym bros and gals).
+- Energized by nature and green. Being in the city can get depressing despite the convenience.
+- Being comfortable and complacent increases fragility and dependency which in effect produces stress.
 
 ### General
 
@@ -136,7 +134,6 @@ I did pretty well with my 2023 goals. Hiking the Camino, surprising Maddy, and s
 #### Theme: Take a break
 
 - Xasdfa as
--
 
 ## Resources
 

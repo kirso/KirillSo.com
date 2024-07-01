@@ -21,6 +21,7 @@
 		messages = [...messages, { user: "user", text: trimmedInput, isQuestion: true }];
 		input = "";
 		isLoading = true;
+		currentStreamedMessage = "";
 
 		try {
 			const response = await fetch("/api/embeddings", {
@@ -36,17 +37,39 @@
 				throw new Error(`HTTP error! status: ${response.status}`);
 			}
 
-			const data = await response.json();
+			const reader = response.body.getReader();
+			const decoder = new TextDecoder();
 
-			// Simulate streaming effect
-			currentStreamedMessage = "";
-			const words = data.answer.split(" ");
-			for (let word of words) {
-				currentStreamedMessage += word + " ";
-				await new Promise((resolve) => setTimeout(resolve, 50)); // Adjust timing as needed
+			while (true) {
+				const { done, value } = await reader.read();
+				if (done) break;
+				const chunk = decoder.decode(value);
+				currentStreamedMessage += chunk;
+				// Force a re-render to show the streaming text
+				currentStreamedMessage = currentStreamedMessage;
 			}
 
-			messages = [...messages, { user: "bot", text: data.answer, isQuestion: false }];
+			// Check if the response was truncated
+			const truncationIndex = currentStreamedMessage.indexOf(
+				"\n\n[Response truncated for brevity]",
+			);
+			let finalMessage = currentStreamedMessage;
+			let isTruncated = false;
+
+			if (truncationIndex !== -1) {
+				finalMessage = currentStreamedMessage.substring(0, truncationIndex);
+				isTruncated = true;
+			}
+
+			messages = [
+				...messages,
+				{
+					user: "bot",
+					text: finalMessage,
+					isQuestion: false,
+					isTruncated: isTruncated,
+				},
+			];
 		} catch (error) {
 			console.error("Failed to send message:", error);
 			messages = [
@@ -86,6 +109,9 @@
 						transition:fade
 					>
 						{msg.text}
+						{#if msg.isTruncated}
+							<span class="text-xs text-gray-500 italic"> [Response truncated for brevity] </span>
+						{/if}
 					</div>
 				{/each}
 				{#if isLoading}
@@ -127,7 +153,3 @@
 		</div>
 	{/if}
 </div>
-
-<style>
-	/* Add any additional styles here */
-</style>
