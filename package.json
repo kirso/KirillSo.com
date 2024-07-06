@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
+    "prebuild": "bun run src/scripts/fetchWebmentions.ts",
     "build": "node --version && astro build",
     "postbuild": "pagefind --site .vercel/output/static",
     "preview": "astro preview",

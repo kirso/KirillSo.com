@@ -24,6 +24,7 @@ export const siteConfig: SiteConfig = {
 	},
 	webmentions: {
 		link: "https://webmention.io/www.kirillso.com/webmention",
+		pingback: "https://webmention.io/www.kirillso.com/xmlrpc",
 	},
 };
 

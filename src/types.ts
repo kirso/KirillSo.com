@@ -34,30 +34,21 @@ export type WebmentionsFeed = {
 	children: WebmentionsChildren[];
 };
 
-export type WebmentionsCache = {
-	lastFetched: string | null;
-	children: WebmentionsChildren[];
-};
-
 export type WebmentionsChildren = {
 	type: string;
-	author: Author | null;
+	author: Author;
 	url: string;
-	published?: string | null;
+	published: string | null;
 	"wm-received": string;
 	"wm-id": number;
 	"wm-source": string;
 	"wm-target": string;
 	"wm-protocol": string;
-	syndication?: string[] | null;
-	content?: Content | null;
-	"mention-of": string;
-	"wm-property": string;
-	"wm-private": boolean;
-	rels?: Rels | null;
-	name?: string | null;
-	photo?: string[] | null;
-	summary?: Summary | null;
+	"wm-property": WebmentionProperty;
+	content?: {
+		text: string;
+	};
+	[key: string]: unknown;
 };
 
 export type Author = {
@@ -66,6 +57,8 @@ export type Author = {
 	photo: string;
 	url: string;
 };
+
+export type WebmentionProperty = "like-of" | "mention-of" | "in-reply-to" | "repost-of";
 
 export type Content = {
 	"content-type": string;

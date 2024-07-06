@@ -1,4 +1,4 @@
-import { supabase } from "../../lib/supabaseClient";
+import { supabase } from "./supabaseClient";
 
 export async function getEmbeddings() {
 	const { data, error } = await supabase.from("embeddings").select("embedding, text");

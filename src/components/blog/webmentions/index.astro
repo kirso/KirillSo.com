@@ -1,27 +1,33 @@
 ---
-import { getWebmentionsForUrl } from "@/utils";
+import { getWebmentionsForUrl } from "../../../utils/webmentions";
+import type { WebmentionsChildren } from "../../../types";
 
 import Comments from "./Comments.astro";
 import Likes from "./Likes.astro";
 
 const url = new URL(Astro.url.pathname, Astro.site);
 
-const webMentions = await getWebmentionsForUrl(`${url}`);
-if (!webMentions.length) return;
+let webMentions: WebmentionsChildren[] = [];
+try {
+	webMentions = await getWebmentionsForUrl(`${url}`);
+	console.log("Webmentions fetched in component:", webMentions);
+} catch (error) {
+	console.error("Error fetching webmentions in component:", error);
+}
 ---
 
 {
-	!!webMentions.length && (
+	webMentions.length > 0 && (
 		<>
-			<hr class="border-solid" />
-			<h2 class="mb-8 before:hidden">Webmentions for this post</h2>
-			<div class="space-y-10">
+			<hr class='border-solid' />
+			<h2 class='mb-8 before:hidden'>Webmentions for this post</h2>
+			<div class='space-y-10'>
 				<Likes mentions={webMentions} />
 				<Comments mentions={webMentions} />
 			</div>
-			<p class="mt-8">
+			<p class='mt-8'>
 				Responses powered by{" "}
-				<a href="https://webmention.io" rel="noopener noreferrer" target="_blank">
+				<a href='https://webmention.io' rel='noopener noreferrer' target='_blank'>
 					Webmentions
 				</a>
 			</p>

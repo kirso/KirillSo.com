@@ -54,10 +54,26 @@ export default defineConfig({
 			"process.env.SUPABASE_URL": JSON.stringify(process.env.SUPABASE_URL),
 			"process.env.SUPABASE_KEY": JSON.stringify(process.env.SUPABASE_KEY),
 			"process.env.OPENAI_API_KEY": JSON.stringify(process.env.OPENAI_API_KEY),
+			"import.meta.env.WEBMENTION_API_KEY": JSON.stringify(process.env.WEBMENTION_API_KEY),
 		},
 		plugins: [rawFonts([".ttf", ".woff"])],
 		optimizeDeps: {
 			exclude: ["@resvg/resvg-js"],
+		},
+		build: {
+			rollupOptions: {
+				external: [
+					"node:util",
+					"node:stream",
+					"node:events",
+					"node:os",
+					"node:path",
+					"child_process",
+					"node:child_process",
+					"node:crypto",
+					"fs",
+				],
+			},
 		},
 	},
 	adapter: vercel({
