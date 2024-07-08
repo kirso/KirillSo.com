@@ -19,5 +19,6 @@
 	"[astro]": {
 		"editor.defaultFormatter": "astro-build.astro-vscode"
 	},
-	"languageToolLinter.languageTool.ignoredWordsInWorkspace": ["carousell"]
+	"languageToolLinter.languageTool.ignoredWordsInWorkspace": ["carousell"],
+	"cSpell.enabled": true
 }
