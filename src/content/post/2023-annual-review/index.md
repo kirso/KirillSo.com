@@ -5,7 +5,7 @@ publishDate: "2023-12-29"
 tags: ["meta", "life", "review"]
 draft: true
 coverImage:
-  src: "./Matryosh.jpg"
+  src: "./attachments/Matryosh.jpg"
   alt: "A wall with standing matryoshka dolls"
   credit: "Alberto Triano"
 ---
@@ -52,7 +52,7 @@ Overall it has been a very good year, not without challenges but as usual I lear
 They say who you marry will pretty much dictate the quality of your life.
 
 Well last year in May, [Sarah](www.sarahkhanamajid.com) and I, decided to make it official and signed papers at a local ROM (registry of marriage) in Singapore. We didn’t have a proper ceremony yet, which is planned for this year and will only appear as a life event in the next review.
-![registry of marriage in Singapore](ROM.jpg)
+![registry of marriage in Singapore](./attachments/ROM.jpg)
 
 Our relationship has been defined by randomness that turned into fast-track boot camp in 2020 where we moved in together in the middle of the pandemic. We were isolated from the outside world for at least a year in a small studio apartment in the east of Singapore. Despite that fact and being very early in, we managed to make it work, in fact it was really fun.
 
@@ -62,7 +62,19 @@ I am incredibly humbled and grateful that I have a person in my life who is kind
 
 ### Experiences and travel
 
-Wow, this has been incredible. I’ve never travelled so much (outside of work) in one year although to similar destinations.
+Wow, this has been incredible. I’ve never travelled so much (outside of work) in one year although to similar destinations within SEA but still with enough newness to make it worthwhile!
+
+Langkawi:
+![[./attachments/langkawi.png]]
+Vietnam:
+![[./attachments/vietnam.png]]
+Bali:
+![[bali.png]]
+Taiwan:
+![[taiwan1.png]]
+![[taiwan2.png]]
+Thailand (Chiang Mai):
+![[chiang-mai.png]]
 
 ### Stability (with a caveat)
 
@@ -91,9 +103,6 @@ A few personal
 
 - I learned a lot about how networks and the internet work at a low level in my time at GreyNoise.
 - I learned that I can survive a big professional failure, and that as long as I live by my values and treat people with respect that will ultimately be more important to the surrounding people than the failure was.
-- I learned that not only CAN I walk across a country, I LOVE the simplicity and the community and the challenge that come with a big through hike.
-- I learned that I shouldn’t be afraid of crowds on big through hikes, because the people are the best part. Walking the Appalachian Trail is my newest big audacious goal (although not for this year).
-- I learned that, at least for now, I want to be a founder and not an employee.
 
 ### What I changed my mind
 

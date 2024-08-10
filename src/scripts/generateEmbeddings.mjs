@@ -6,7 +6,7 @@ import path from "path";
 import { fileURLToPath } from "url";
 import { v4 as uuidv4 } from "uuid"; // Add this import
 
-const id = process.env.RESUME_EMBEDDING_ID || uuidv4();
+const id = import.meta.env.RESUME_EMBEDDING_ID || uuidv4();
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
@@ -14,8 +14,8 @@ const __dirname = path.dirname(__filename);
 dotenv.config({ path: path.resolve(__dirname, "..", "..", ".env") });
 
 // Initialize Supabase client
-const supabaseUrl = process.env.SUPABASE_URL;
-const supabaseKey = process.env.SUPABASE_KEY;
+const supabaseUrl = import.meta.env.SUPABASE_URL;
+const supabaseKey = import.meta.env.SUPABASE_KEY;
 
 if (!supabaseUrl || !supabaseKey) {
 	throw new Error("SUPABASE_URL or SUPABASE_KEY is not defined in the environment variables");
@@ -24,7 +24,7 @@ if (!supabaseUrl || !supabaseKey) {
 const supabase = createClient(supabaseUrl, supabaseKey);
 
 // Initialize OpenAI client
-const openaiApiKey = process.env.OPENAI_API_KEY;
+const openaiApiKey = import.meta.env.OPENAI_API_KEY;
 
 if (!openaiApiKey) {
 	throw new Error("OPENAI_API_KEY is not defined in the environment variables");
@@ -35,7 +35,7 @@ const openai = new OpenAI({ apiKey: openaiApiKey });
 async function generateEmbeddings() {
 	try {
 		// Read the resume.md file
-		const resumePath = path.join(__dirname, "..", "assets", "resume.md");
+		const resumePath = path.join(__dirname, "..", "..", "public", "files", "resume.md");
 		const resumeContent = await fs.readFile(resumePath, "utf8");
 
 		// Generate embedding for the entire resume content

@@ -5,8 +5,8 @@ import { Resvg } from "@resvg/resvg-js";
 import { siteConfig } from "@/site-config";
 import { getAllPosts, getFormattedDate } from "@/utils";
 
-import AtkinsonHyperlegible from "@/assets/AtkinsonHyperlegible-Regular.ttf";
-import AtkinsonHyperlegibleBold from "@/assets/AtkinsonHyperlegible-Bold.ttf";
+import AtkinsonHyperlegible from "../../../public/fonts/AtkinsonHyperlegible-Regular.ttf";
+import AtkinsonHyperlegibleBold from "../../../public/fonts/AtkinsonHyperlegible-Bold.ttf";
 
 const ogOptions: SatoriOptions = {
 	width: 1200,

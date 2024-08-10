@@ -12,25 +12,25 @@ coverImage:
 
 _This short-essay is part of the [Shiny dime challenge](https://writeofpassage.com/challenge)._
 
-Two years back, I wrote my first annual review. It was a daunting exercise. Not for the reasons of dreading self-reflection, I just couldn't remember what happened last year. It made me feel poignant, as I couldn't remember much of the past few years unless going into my Instagram feed.
+Two years back, I wrote my first annual review. It was a daunting exercise. Not for the reasons of dreading self-reflection, I just couldn’t remember what happened last year. It made me feel poignant, as I couldn’t remember much of the past few years unless going into my Instagram feed.
 
-What's the connection to zombies you may wonder?
+What’s the connection to zombies you may wonder?
 
-It turns out the apocalypse has happened. We just didn't notice. There is this funny quote that circles the internet about a twisted book prophecy:
+It turns out the apocalypse has happened. We just didn’t notice. There is this funny quote that circles the internet about a twisted book prophecy:
 
-> What Orwell failed to predict is that we'd buy the cameras ourselves and that our biggest fear would be that nobody is watching. - Keith Jensen
+> What Orwell failed to predict is that we’d buy the cameras ourselves and that our biggest fear would be that nobody is watching. - Keith Jensen
 
 The dystopia has long arrived, just not in the form described in books and movies.
 
-We've been walking in a herd all together. Without a virus outbreak, or cordyceps network taking over…
+We’ve been walking in a herd all together. Without a virus outbreak, or cordyceps network taking over…
 
-Busyness used to be a source of pride and a bragging right. A decade ago, I'd tell my friends I couldn't meet them because, well, my email writing technique and Excel financial models took precedence. I'd justify that I am just more ambitious and hard-working. In hindsight, it was just a wasteful insecurity-fest of low-status perception which mutated into:
+Busyness used to be a source of pride and a bragging right. A decade ago, I’d tell my friends I couldn’t meet them because, well, my email writing technique and Excel financial models took precedence. I’d justify that I am just more ambitious and hard-working. In hindsight, it was just a wasteful insecurity-fest of low-status perception which mutated into:
 
 Missed opportunities to spend time with family.
 
-Friends I didn't pay attention to during dinner cause I was swiping on Tinder.
+Friends I didn’t pay attention to during dinner cause I was swiping on Tinder.
 
-Farewells I didn't attend.
+Farewells I didn’t attend.
 
 Random acts of kindness I took for granted.
 
@@ -44,7 +44,7 @@ Divorce.
 
 A health issue.
 
-An alternative is a pill. The vicious pill of "time". The one that lingers until it plants an idea in the subconscious and screams: "Something is not right!" Until one day we sit down to write our journal entry and realize that memories are gone. One by one.
+An alternative is a pill. The vicious pill of “time”. The one that lingers until it plants an idea in the subconscious and screams: “Something is not right!” Until one day we sit down to write our journal entry and realize that memories are gone. One by one.
 
 Perhaps it is meant to be. We get infected and then cure ourselves. Become free, just to join the herd again after our 2-week vacation.
 
