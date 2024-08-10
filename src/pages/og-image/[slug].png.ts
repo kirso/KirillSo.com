@@ -14,13 +14,13 @@ const ogOptions: SatoriOptions = {
 	// debug: true,
 	fonts: [
 		{
-			name: "Roboto Mono",
+			name: "Atkinson Hyperlegible",
 			data: Buffer.from(AtkinsonHyperlegible),
 			weight: 400,
 			style: "normal",
 		},
 		{
-			name: "Roboto Mono",
+			name: "Atkinson Hyperlegible",
 			data: Buffer.from(AtkinsonHyperlegibleBold),
 			weight: 700,
 			style: "normal",
