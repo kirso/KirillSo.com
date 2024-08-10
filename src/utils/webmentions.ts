@@ -1,7 +1,7 @@
 import type { WebmentionsChildren, WebmentionProperty } from "../types";
 
 const SITE_URL = import.meta.env.SITE;
-const WEBMENTION_API_KEY = import.meta.env.WEBMENTION_API_KEY;
+const WEBMENTION_API_KEY = import.meta.env.PUBLIC_WEBMENTION_API_KEY;
 
 export async function getWebmentionsForUrl(url: string): Promise<WebmentionsChildren[]> {
 	console.log("Fetching webmentions for URL:", url);

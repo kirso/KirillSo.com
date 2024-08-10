@@ -4,9 +4,11 @@ import { html } from "satori-html";
 import { Resvg } from "@resvg/resvg-js";
 import { siteConfig } from "@/site-config";
 import { getAllPosts, getFormattedDate } from "@/utils";
+import fs from "fs/promises";
 
-import AtkinsonHyperlegible from "../../../public/fonts/AtkinsonHyperlegible-Regular.ttf";
-import AtkinsonHyperlegibleBold from "../../../public/fonts/AtkinsonHyperlegible-Bold.ttf";
+// Font loading
+const fontRegular = fs.readFile("./public/fonts/AtkinsonHyperlegible-Regular.ttf");
+const fontBold = fs.readFile("./public/fonts/AtkinsonHyperlegible-Bold.ttf");
 
 const ogOptions: SatoriOptions = {
 	width: 1200,
@@ -15,13 +17,13 @@ const ogOptions: SatoriOptions = {
 	fonts: [
 		{
 			name: "Atkinson Hyperlegible",
-			data: Buffer.from(AtkinsonHyperlegible),
+			data: await fontRegular,
 			weight: 400,
 			style: "normal",
 		},
 		{
 			name: "Atkinson Hyperlegible",
-			data: Buffer.from(AtkinsonHyperlegibleBold),
+			data: await fontBold,
 			weight: 700,
 			style: "normal",
 		},

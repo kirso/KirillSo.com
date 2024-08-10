@@ -159,7 +159,7 @@ export const supabase = createClient(supabaseUrl, supabaseKey);
 
 Add your Supabase URL and anon key to your `.env` file:
 
-```env
+```bash
 PUBLIC_SUPABASE_URL=your_supabase_project_url
 PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
 ```

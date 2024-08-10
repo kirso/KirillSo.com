@@ -3,7 +3,7 @@ import path from "path";
 import type { WebmentionsFeed, WebmentionsChildren } from "@/types";
 
 const DOMAIN = import.meta.env.SITE;
-const WEBMENTION_API_KEY = import.meta.env.WEBMENTION_API_KEY;
+const WEBMENTION_API_KEY = import.meta.env.PUBLIC_WEBMENTION_API_KEY;
 
 export async function fetchWebmentionsForUrl(url: string): Promise<WebmentionsChildren[]> {
 	const target = `${DOMAIN}${url}`;

@@ -29,7 +29,7 @@ export default {
 			},
 			fontFamily: {
 				// Add any custom fonts here
-				sans: ["Atkinson Hyperlegible", ...fontFamily.sans],
+				sans: ["AtkinsonHyperlegible", ...fontFamily.sans],
 			},
 			transitionProperty: {
 				height: "height",
