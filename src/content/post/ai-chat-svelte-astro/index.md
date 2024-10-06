@@ -27,9 +27,9 @@ coverImage:
 
 ## Introduction
 
-As a sworn nights & weekends builder and tinkerer I wanted to improve my astro based website and make it a bit more interactive. I already managed to figure out how to serve static content but making the personal space a bit more dynamic and playing between SSR and SSG states was the ultimate goal whilst trying some shiny new toys (and hence creating some unnecessary but cool dependencies).
+As a sworn nights & weekends tinkerer I wanted to improve my astro based website and make it a bit more interactive. I already managed to figure out how to serve static content but making the personal space a bit more dynamic and playing between SSR and SSG states was the ultimate goal whilst trying some shiny new toys (and hence creating some unnecessary but cool dependencies).
 
-This project allowed me to dive deeper into several exciting technologies: Astro, Svelte, OpenAI, Upstash, Supabase & Cody (Sourcegraph).
+This project allowed me to dive deeper into: Astro, Svelte, OpenAI, Upstash, Supabase & Cody (Sourcegraph).
 
 In this comprehensive guide, I’ll walk you through the process of creating a chat interface where visitors can ask questions about you and your work. They will then receive AI-generated responses based on the content of your CV or any other text you choose to use as a knowledge base.
 

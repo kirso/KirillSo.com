@@ -1,0 +1,3 @@
+[[vectorize]]
+binding = "CV_EMBEDDINGS"
+index_name = "cv-embeddings"
