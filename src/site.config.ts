@@ -8,7 +8,7 @@ export const siteConfig: SiteConfig = {
 	title: "Personal website and blog",
 	// Meta property used as the default description meta property
 	description:
-		"A product manager, occasional writer and part-time indie maker based in Singapore. This website is used as exploration of ideas, tiny projects and learning new things via experiments.",
+		"Product manager, occasional writer and & part-time indie-maker based in Singapore. Exploring, experimenting & learning whilst building tiny products.",
 	// HTML lang property, found in src/layouts/Base.astro L:18
 	lang: "en-GB",
 	// Meta property, found in src/components/BaseHead.astro L:42

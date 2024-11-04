@@ -1,7 +1,7 @@
 ---
 title: "2023 Annual Review"
 description: "2023 annual review about things that went well, not so well, experiences and learnings throughout the year."
-publishDate: "2023-12-29"
+publishDate: "2022-12-29"
 tags: ["meta", "life", "review"]
 draft: true
 coverImage:
@@ -14,7 +14,7 @@ coverImage:
 
 In 2022, [I attempted](/posts/annual-review-2021) to summarize my year for the first time. I did ok and it was a pleasurable activity.
 
-In 2023, despite having good intentions I made a mistake and went too deep. The goal changed from summarizing my learnings and reflect to “I just want to be done with it”. And such philosophy, my dear friends, is very dangerous. We tend to get into that mode when we are not really connected to what we are doing. The result was so deep and probably uninteresting that it just didn’t make sense to publish.
+In 2023, despite having good intentions I made a mistake and went too deep. The goal changed from summarizing my learnings and reflect to “I just want to be done with it”. And such thought, my dear friends, is very dangerous. We tend to get into that mode when we are not really connected to what we are doing. The result was so deep and probably uninteresting that it just didn’t make sense to publish.
 
 This year I didn’t learn the lesson. I used the same template and dreaded every moment but pushed through. With the same outcome of not being proud of what I’ve done despite sinking 10 hours into the process. I frankly hated it.
 
