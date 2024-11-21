@@ -46,7 +46,7 @@
     "wrangler": "^3.80.0"
   },
   "devDependencies": {
-    "@astrojs/check": "0.7.0",
+    "@astrojs/check": "0.9.3",
     "@iconify-json/mdi": "^1.1.67",
     "@pagefind/default-ui": "^1.1.0",
     "@resvg/resvg-js": "^2.6.2",
