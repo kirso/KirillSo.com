@@ -753,13 +753,3 @@ This API endpoint does the following:
 6. Streams the response back to the client.
 
 With this API endpoint in place, our chat component can now communicate with the backend, leveraging the power of OpenAI and our stored embeddings to provide intelligent responses.
-
-```mermaid
-graph TD
-    A[ORCH] --> B[MKS API]
-    C[CORE] -.-> B
-    B --> D[FwF Integration]
-    B --> E[Traffic Splitting]
-    B --> F[State Management]
-    B --> G[Experiment Concurrency]
-```

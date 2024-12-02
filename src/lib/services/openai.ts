@@ -8,7 +8,14 @@ if (!openaiApiKey) {
 	throw new Error("OPENAI_API_KEY is not defined in the environment variables");
 }
 
-export const openai = new OpenAI({ apiKey: openaiApiKey });
+export const openai = new OpenAI({
+	apiKey: openaiApiKey,
+	baseURL: "https://oai.hconeai.com/v1",
+	defaultHeaders: {
+		"Helicone-Auth": `Bearer ${process.env.HELICONE_AUTH_HEADER}`,
+		"helicone-stream-usage": "true",
+	},
+});
 
 export async function createEmbedding(input: string) {
 	return await openai.embeddings.create({

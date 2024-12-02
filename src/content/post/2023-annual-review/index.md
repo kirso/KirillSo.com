@@ -14,7 +14,7 @@ coverImage:
 
 In 2022, [I attempted](/posts/annual-review-2021) to summarize my year for the first time. I did ok and it was a pleasurable activity.
 
-In 2023, despite having good intentions I made a mistake and went too deep. The goal changed from summarizing my learnings and reflect to “I just want to be done with it”. And such thought, my dear friends, is very dangerous. We tend to get into that mode when we are not really connected to what we are doing. The result was so deep and probably uninteresting that it just didn’t make sense to publish.
+In 2023, despite having good intentions I made a mistake and went too deep. Instead of looking forward to summarise my learnings I just wanted to be done with it which is far from a "reflective goal". This also created a mental wall and disconnected from the thinking state I wanted to be in.
 
 This year I didn’t learn the lesson. I used the same template and dreaded every moment but pushed through. With the same outcome of not being proud of what I’ve done despite sinking 10 hours into the process. I frankly hated it.
 
@@ -31,9 +31,9 @@ If you wonder why to even spend time doing something like this, [Ximena Vengoech
 ### The structure
 
 - [TL;DR](#tldr)
-- [What went well? (Highlights)](#highlights)
-- [What didn’t go well? (Lowlights)](#lowlights)
-- What did I learn? (Lessons)
+- [Highlights)](#highlights)
+- [Lowlights](#lowlights)
+- [Learnings](#learnings)
 - Core memories (Moments of awe)
 - Systems & values
 
@@ -60,7 +60,7 @@ When the borders opened, we started to finally enjoy what other couples usually 
 
 I am incredibly humbled and grateful that I have a person in my life who is kind, generous, supportive, and full of infectious optimism and zest for life. As her sister likes to say, she brings “color” into my life.
 
-### Experiences and travel
+### Experiences
 
 Wow, this has been incredible. I’ve never travelled so much (outside of work) in one year although to similar destinations within SEA but still with enough newness to make it worthwhile!
 
@@ -78,7 +78,7 @@ Thailand (Chiang Mai):
 
 ### Stability (with a caveat)
 
-## What didn’t go well?
+## Lowlights
 
 ### Auto-mode
 
@@ -93,7 +93,7 @@ A few personal
 ## Learnings
 
 - I might not be the great entrepreneur, but I love buildings products.
-- I am drained by bullshit work and politics (PowerPoint decks, synchronous meeting culture, admin) and anything that seems meaningless.
+- I am drained by bullshit work and politics (PowerPoint decks, synchronous meeting culture, admin) and anything that seems meaningless and pointless.
 - Simple & married life suits me. I feel responsible for another human being on a daily basis, which grounds me.
 - Being part of a small community of souls that resonate around niche topics (people who are on non-default paths, hackers building tiny products, local gym bros and gals).
 - Energized by nature and green. Being in the city can get depressing despite the convenience.
@@ -134,7 +134,7 @@ Throughout the year
 
 ### 2023 Goals
 
-#### Theme:
+#### Theme
 
 I did pretty well with my 2023 goals. Hiking the Camino, surprising Maddy, and sticking to Spanish lessons for most of the year were big achievements. I didn’t climb as much as I had intended, but I did pick up weightlifting for a bit and really enjoyed that again. And I don’t think I built emotional resilience, or at least not at the level I would like to have gotten to. But I did weather some big life changes and challenges, so that is really the only way to practice. Hell
 
