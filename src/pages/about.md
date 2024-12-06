@@ -6,7 +6,7 @@ title: "About"
 description: "An about page that outlines various life milestones. It also delves into my principles, hobbies, what I am doing now, and overall philosophy of life."
 ---
 
-![Kirill So networking with people at a conference](../assets/img/about/kirill-profile-picture.jpg)
+![Kirill So networking with people at a conference](../assets/img/about/kirill-profile-picture.png)
 
 Hey there 👋, thanks for checking a more extensive version of my personality. This corner of the website is always work in progress.
 
