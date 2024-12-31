@@ -1,7 +1,6 @@
 import type { APIContext, InferGetStaticPropsType } from "astro";
 import satori, { type SatoriOptions } from "satori";
 import { html } from "satori-html";
-import * as resvg from "@resvg/resvg-js";
 import { Resvg } from "@resvg/resvg-js";
 import { siteConfig } from "@/site-config";
 import { getAllPosts, getFormattedDate } from "@/utils";
@@ -42,7 +41,7 @@ const markup = (title: string, pubDate: string) =>
 				<svg
 					width="50"
 					height="50"
-					viewBox="0 0 272 480"
+					viewBox="0 0 900 900"
 					preserveAspectRatio="xMidYMid meet"
 					fill="none"
 					xmlns="http://www.w3.org/2000/svg"
@@ -85,15 +84,8 @@ export async function GET(context: APIContext) {
 		month: "long",
 	});
 
-	const opts: resvg.ResvgRenderOptions = {
-		fitTo: {
-			mode: "width", // or 'height', depends on how you want to fit
-			value: 50, // This ensures it scales to fit 50 pixels on one dimension
-		},
-	};
-
 	const svg = await satori(markup(title, postDate), ogOptions);
-	const png = new Resvg(svg, opts).render().asPng();
+	const png = new Resvg(svg).render().asPng();
 	return new Response(png, {
 		headers: {
 			"Content-Type": "image/png",
