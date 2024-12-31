@@ -1,5 +1,5 @@
 ---
-title: "Mobile app retargeting and user acquisition"
+title: "App retargeting vs user acquisition"
 publishDate: "2018-03-08"
 description: "This article outlines how mobile app retargeting compares to user acquisition in terms of benefits, segmentation."
 tags: ["growth", "adtech", "mobile"]

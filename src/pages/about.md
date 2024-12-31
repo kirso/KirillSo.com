@@ -34,7 +34,7 @@ In my free time, I like to tinker with technology, read, write, and occasionally
 
 **2011** - Started my first startup that copied a [business model](https://venturebeat.com/business/a-brief-history-of-fab-from-mega-hype-to-crash-and-burn/) from the US. After incorporating, and printing business cards, we realized we had 0 customers. Turns out it’s quite important. I learned a few valuable lessons at that time.
 
-**2012** - Moved to Berlin during the start-up boom and joined a [venture studio](https://ioniq.com/portfolio/). The company portfolio now spans FinTech, AdTech and HealthTech companies. This has been an interesting experience looking back based on the macro and micro lens of technology cycles. We saw mobile overtaking web traffic from the front-row seats, the rise of ad networks, fraud, and most importantly the phase when everyone is just trying to figure out what is going to happen next.
+**2012** - Moved to Berlin during the start-up boom and joined a [venture studio](https://www.ioniq.com/). The company portfolio now spans FinTech, AdTech and HealthTech companies. This has been an interesting experience looking back based on the macro and micro lens of technology cycles. We saw mobile overtaking web traffic from the front-row seats, the rise of ad networks, fraud, and most importantly the phase when everyone is just trying to figure out what is going to happen next.
 
 ![Paddling on the lake in Berlin, Germany](../assets/img/about/berlin.jpeg)
 
@@ -66,7 +66,7 @@ Private:
 
 Public:
 
-- [$VWRA](https://www.vanguardmexico.com/en/products/financial-products/equity-etf/VWRA)
+- [$VWRA](https://www.vanguardmexico.com/en/product/etf/equity/9679/vanguard-ftse-all-world-ucits-etf-usd-accumulating)
 - [$COIN](https://www.google.com/finance/quote/COIN:NASDAQ?sa=X&ved=2ahUKEwjTjYvU4K6EAxWjcGwGHf3RD68Q3ecFegQIRxAf&window=MAX)
 - [$U](https://www.google.com/finance/quote/U:NYSE?window=MAX)
 - [$SE](https://www.google.com/finance/quote/SE:NYSE?window=MAX)

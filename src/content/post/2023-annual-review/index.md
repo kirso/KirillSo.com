@@ -14,7 +14,7 @@ coverImage:
 
 In 2022, [I attempted](/posts/annual-review-2021) to summarize my year for the first time. I did ok and it was a pleasurable activity.
 
-In 2023, despite having good intentions I made a mistake and went too deep. Instead of looking forward to summarise my learnings I just wanted to be done with it which is far from a "reflective goal". This also created a mental wall and disconnected from the thinking state I wanted to be in.
+In 2023, despite having good intentions I made a mistake and went too deep. Instead of looking forward to summarize my learnings I just wanted to be done with it which is far from a “reflective goal”. This also created a mental wall and disconnected from the thinking state I wanted to be in.
 
 This year I didn’t learn the lesson. I used the same template and dreaded every moment but pushed through. With the same outcome of not being proud of what I’ve done despite sinking 10 hours into the process. I frankly hated it.
 
@@ -31,10 +31,10 @@ If you wonder why to even spend time doing something like this, [Ximena Vengoech
 ### The structure
 
 - [TL;DR](#tldr)
-- [Highlights)](#highlights)
+- [Highlights](#highlights)
 - [Lowlights](#lowlights)
 - [Learnings](#learnings)
-- Core memories (Moments of awe)
+- Core memories
 - Systems & values
 
 ### TLDR
@@ -115,7 +115,7 @@ Throughout the year
 ## Core memories
 
 - All the Bali trips
-- Restarted my journey to become technical and being able to code with Lau
+- Restarted my journey to become technical and being able to code
 - Trip to Bangkok to see Arctic Monkeys
 - Celebrating our birthdays with [Sarah](www.sarahkhanmajid.com) and friends
 - Reached 100% heart rate during fitness workout

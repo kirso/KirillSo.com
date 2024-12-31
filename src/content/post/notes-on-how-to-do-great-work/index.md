@@ -1,6 +1,6 @@
 ---
 title: Notes on how to do great work
-description: "This is a reworded and summarised version of Paul Graham's essay on how to do great work."
+description: "A paraphrased summary and thoughts on the prolific essay about doing life's great work by Paul Graham, Y Combinator. "
 publishDate: 2024-03-07
 tags: [notes, ambition, curiosity]
 draft: false
