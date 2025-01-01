@@ -24,7 +24,7 @@ It was one of the most intense years of my life, but also one of the most meanin
 
 ### Family visit in Singapore and Bali
 
-My mum and her husband visited me in Singapore. It was their first time so I finally had time to do all the touristy stuff that I never did now being a “resident”. We walked, ate, talked and laughed a lot whilst letting them experience the culture shock for the first time in Asia.
+My mum and her husband visited me in Singapore. It was their first time so I finally had an opportunity to do all the touristy things that I never got to during my 5 year tenure in the country. We walked, ate, talked and laughed a lot whilst letting them experience the culture shock for the first time in Asia.
 ![changi-airport-family](attachments/changi-airport-family.png)
 ![bali-beach](attachments/bali-beach.png)
 As we reach a certain age, it is inevitable to start thinking about our time with our family. This realization hit me just recently when my mum turned 60 this year. This really shocked me. Not that its an extreme age, but I didn’t think about it much up until now. When you try to put a number, here is a wake-up call quote from a [BigThink article](https://bigthink.com/thinking/how-many-times-will-you-see-your-parents-before-they-die/):
