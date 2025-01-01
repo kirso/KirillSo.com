@@ -194,9 +194,9 @@ I struggle with accepting average outcomes, which leads to seeking patterns in s
 
 #### Dune (4/5)
 
-I didn’t read much this year. But after Dune: Part two came out and I was absolutely mesmerized in the cinema I just had to pick it up. I am not fully finished yet but so far despite knowing the story, I can see how the book combines sci-fi elements of various elements of Arrakis such as water, fauna and the complexity of the various parties such as fremen, the houses and bene gesserit, the infamous sisterhood of behind the scenes manipulations and power. Its a fascinating universe, interestingly using phrases from various languages including “kindjal” which means a weapon with up to 40cm straight or curved blade in Russian and also references the same type of weapon in the book. There is more linguistic play here with Hebrew and Arabic references as well as broader thematic explorations of influence, control and the nature of humanity.
+I didn’t read much this year. But after Dune: Part two came out and I was absolutely mesmerized in the cinema I just had to pick it up. I am not fully finished yet but so far despite knowing the story, I can see how the book combines successful sci-fi elements (flora and fauna, how suites are made, how spice is harvested etc.) with the political intricacies of the main story and characters. Its a fascinating universe, interestingly using phrases from various languages including “kindjal” which means a weapon with up to 40cm straight or curved blade in Russian and also references the same type of weapon in the book. There is more linguistic play here with Hebrew and Arabic references as well as broader thematic explorations of influence, control and the nature of humanity.
 
-[Dune (Dune, #1)](https://www.goodreads.com/book/show/44767458-dune)
+[Dune on Goodreads](https://www.goodreads.com/book/show/44767458-dune)
 
 ### Course
 
@@ -204,7 +204,7 @@ I didn’t read much this year. But after Dune: Part two came out and I was abso
 
 I didn’t manage to do a lot of studying since embarking on LaunchSchool last year but at the end of the year I’ve taken Generative AI for PMs which was very decent. There is one part of the course that didn’t sit very well with me about data visualization that seemed to be out of place but otherwise its worth it.
 
-[Simulator](https://gopractice.io/course/genai/)
+[Simulator GoPractice link](https://gopractice.io/course/genai/)
 
 ### Movie
 
