@@ -262,8 +262,8 @@ I’ve tried many apps but none of them stuck and I got quickly overwhelmed by t
   - Play tennis at least 50 times in 2025
 - Growth
   - Write 12 articles on topics that interest me, learnings or my past self advice
-  - Improve my technical skills by taking at least 1 course on the topic of interest
-  - Improve my soft skills by taking at least 1 course (most probably Ultraspeaking)
+  - Improve my technical skills by taking at least 1 course ([Svelte 5](https://www.udemy.com/course/practical-sveltekit-guide-build-and-deploy-real-world-apps/) & [Mastering PostgreSQL](https://masteringpostgres.com/))
+  - Improve my soft skills by taking at least 1 course ([Ultraspeaking](https://ultraspeaking.com/))
 - Work
   - Release at least 1 project with a payment link that is finished end to end (use AI if necessary)
 - Money
@@ -275,7 +275,8 @@ I’ve tried many apps but none of them stuck and I got quickly overwhelmed by t
   - Make at least one more meaningful connection this year
 - Play
   - Attend a cultural event / concert
-  - Finish at least one 10/10 entertainment value (game, tv show, movie)
+  - Read 12 books (1 book a month)
+  - Watch Severance S2 & White Lotus S3
 - Spirituality
   - Attend my first retreat (already planned [Cambodia](https://hariharalaya.com/yoga-retreat/) in February)
   - Meditate for 150 days a year
