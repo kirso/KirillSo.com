@@ -10,7 +10,7 @@ coverImage:
   credit: Malcolm Lightbody
 ---
 
-These are the notes from Paul Graham’s essay [How to do great work](https://paulgraham.com/greatwork.html), sometimes summarised and sometimes reworded by me. I went through the exercise to think through every sentence and have a deeper understanding of the meaning of paragraphs.
+These are the notes from Paul Graham’s essay [How to do great work](https://paulgraham.com/greatwork.html), sometimes summarized and sometimes reworded by me. I went through the exercise to think through every sentence and have a deeper understanding of the meaning of paragraphs.
 
 I think this essay is one of the most important ones written in the past decade and everyone should take the time to read the entire piece.
 
@@ -22,7 +22,7 @@ The work has to have 3 qualities:
 2. You have to have a deep interest in it
 3. It offers scope to do great work
 
-The only way to figure out what you are good at is to **do it**. Reflections, journaling, and talking to others will not grant precise results.
+The only way to figure out what you are good at is to **DO IT**. Reflections, journals, and talking to others will not grant precise results.
 
 It’s okay to be wrong, trying many things will provide insight into different fields and connections.
 
