@@ -25,3 +25,7 @@ pnpm-debug.log*
 .astro
 .vercel
 .turbo
+.node-version
+.eslintignore
+.eslintrc.cjs
+.prettierrc.cjs
