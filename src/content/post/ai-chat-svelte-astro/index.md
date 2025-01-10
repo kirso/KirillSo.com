@@ -83,7 +83,6 @@ import svelte from "@astrojs/svelte";
 
 export default defineConfig({
 	integrations: [svelte()],
-	// Your other configurations...
 });
 ```
 

@@ -3,18 +3,15 @@
   "version": "4.1.0",
   "private": false,
   "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
+    "dev": "bunx --bun astro dev",
+    "start": "bunx --bun astro dev",
     "prebuild": "bun run src/scripts/fetchWebmentions.ts",
-    "build": "node --version && astro build",
-    "postbuild": "pagefind --site .vercel/output/static",
-    "preview": "astro preview",
+    "build": "bunx --bun astro build",
+    "postbuild": "bunx --bun pagefind --site .vercel/output/static",
+    "preview": "bunx --bun astro preview",
     "format": "prettier -w --cache . && prettier -w --cache **/*.astro",
-    "check": "astro check",
-    "generate-embeddings": "node src/lib/generateEmbeddings.mjs"
-  },
-  "engines": {
-    "node": ">=20.0.0"
+    "check": "bunx --bun astro check",
+    "generate-embeddings": "bun run src/lib/generateEmbeddings.mjs"
   },
   "dependencies": {
     "@astrojs/mdx": "3.1.2",
@@ -37,7 +34,6 @@
     "openai": "^4.52.0",
     "rehype-external-links": "^3.0.0",
     "satori": "0.10.13",
-    "satori-html": "^0.3.2",
     "sharp": "^0.33.4",
     "split-file": "^2.3.0",
     "svelte": "^4.2.18",
@@ -80,6 +76,5 @@
     "tailwindcss": "^3.4.4",
     "typescript": "^5.5.2",
     "vite-plugin-node-polyfills": "^0.22.0"
-  },
-  "packageManager": "pnpm@9.1.1+sha512.14e915759c11f77eac07faba4d019c193ec8637229e62ec99eefb7cf3c3b75c64447882b7c485142451ee3a6b408059cdfb7b7fa0341b975f12d0f7629c71195"
+  }
 }
