@@ -1,5 +1,4 @@
 {
-  "packageManager": "bun@1.0.26",
   "name": "kirso-website",
   "version": "4.1.0",
   "private": false,
