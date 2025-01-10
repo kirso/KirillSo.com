@@ -4,6 +4,9 @@
   "installCommand": "bun install",
   "framework": "astro",
   "functions": {
+    "src/pages/og-image/**/*": {
+      "runtime": "@vercel/node@3.0.0"
+    },
     "src/pages/api/**/*": {
       "runtime": "@vercel/node@3.0.0"
     },
