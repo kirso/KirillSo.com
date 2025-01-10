@@ -2,5 +2,10 @@
   "version": 2,
   "buildCommand": "bun run build",
   "installCommand": "bun install",
-  "framework": "astro"
+  "framework": "astro",
+  "functions": {
+    "api/**/*": {
+      "runtime": "@vercel/node@3.0.0"
+    }
+  }
 }
